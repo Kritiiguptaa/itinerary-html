@@ -1,0 +1,157 @@
+/* body{
+    background-image: url(back1.avif);
+    background-size: cover; */
+    /* background-blend-mode: overlay; */
+body{
+    background-color: rgb(236, 237, 239);
+    
+}
+.center {
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    top: 20%;
+    left:20%;
+}
+
+.place{
+    font-size: 20px;
+}
+header{
+    background-color: #fff;
+}
+.label{
+    font-size: 20px;
+}
+.form-group{
+    margin-bottom: 2vh;
+}
+.form-grp{
+    margin-bottom: 2vh;
+}
+.submit{
+    font-size: 20px;
+    margin-top: 2vh;
+    width: 100%;
+    background-color: dodgerblue;
+    border-radius: 6px;
+    padding: 1vh;
+    border-color: dodgerblue;
+    color: #fff;
+    /* float: right; 
+    margin-right: 2vh; */
+}
+.image{
+    float: left;
+    padding-left: 7vh;
+    margin-left: 8vh;
+    margin-right: -2vh;
+    
+}
+.img{
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+    box-shadow: 4px 3px  rgb(176, 177, 179);
+    height:540px;
+    width:740px;
+    overflow: hidden;
+}
+.big-container{
+    display: inline-flex;
+    margin-top: 2.4vh;
+    /* height:540px;
+    width:740px; */
+    /* margin-left:10vh; */
+   
+}
+.whole-container{
+    background-color: #ffffff;
+    padding-bottom: 2vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    /* width: 50%; */
+    float: right;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+    box-shadow: 4px 3px  rgb(176, 177, 179);
+    /* margin-right: 10vh;
+    margin-top: 5vh; */
+}
+.heading{
+    text-align: center;
+    padding-top: 6vh;
+    
+}
+.form-control,.form-group{
+    width: 10vw;
+    
+}
+.datetime{
+    border-radius: .375rem;
+    padding: .375rem .75rem;
+    transition: border-color .15s ease-in-out;
+    box-shadow: none;
+    border-color: rgba(236, 237, 239, 0.532);
+    }
+#passengers{
+        display: inline-flex;
+    }
+.pass{
+    width: 9vw;
+    border-radius: .375rem;
+    padding: .375rem .75rem;
+    transition: border-color .15s ease-in-out;
+    box-shadow: none;
+    border-color: rgba(236, 237, 239, 0.532);
+    }
+    
+
+
+    @media(min-width:1308px)and (max-width:1440px) {
+        /* #passengers{
+            display:block;
+            margin-bottom: -4vh;
+        } */
+         .pass{
+            width: 10vw;
+         }
+         
+        /* .img{
+            height:620px;
+        } */
+        .big-container{
+            margin-left: -11vh;
+        }
+    }
+    @media(max-width:1307px){
+        .img {
+        height:540px;
+        width:700px;
+    }
+    }
+
+    @media(min-width:880px)and (max-width:991px){
+        .center{
+            position: absolute;
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 200;
+            top: 31%;
+            left:23%;
+        }
+    }
+    @media(min-width:768px)and (max-width:879px){
+        .center{
+            position: absolute;
+            display: grid;
+            justify-content: center;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 200;
+            top: 31%;
+            left:27%;
+        }
+    }
