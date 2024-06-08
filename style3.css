@@ -3,8 +3,8 @@
     background-size: cover; */
     /* background-blend-mode: overlay; */
 body{
-    background-color: rgb(236, 237, 239);
-    
+    /* background-color: rgb(236, 237, 239); */
+    background-color: rgba(251, 240, 208, 0.438);
 }
 .center {
     position: absolute;
@@ -14,7 +14,9 @@ body{
     top: 20%;
     left:20%;
 }
-
+#form-start{
+    display: inline-flex;
+}
 .place{
     font-size: 20px;
 }
@@ -30,6 +32,17 @@ header{
 .form-grp{
     margin-bottom: 2vh;
 }
+/* .form-group{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+#form-start{
+    justify-content: space-around;
+}
+.form-control{
+    width: 100%;
+} */
 .submit{
     font-size: 20px;
     margin-top: 2vh;
@@ -50,10 +63,10 @@ header{
     
 }
 .img{
-    border-top-left-radius: 0.4rem;
-    border-bottom-left-radius: 0.4rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     box-shadow: 4px 3px  rgb(176, 177, 179);
-    height:540px;
+    height:570px;
     width:740px;
     overflow: hidden;
 }
@@ -72,8 +85,8 @@ header{
     padding-left: 2vh;
     /* width: 50%; */
     float: right;
-    border-top-right-radius: 0.4rem;
-    border-bottom-right-radius: 0.4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     box-shadow: 4px 3px  rgb(176, 177, 179);
     /* margin-right: 10vh;
     margin-top: 5vh; */
@@ -85,7 +98,7 @@ header{
 }
 .form-control,.form-group{
     width: 10vw;
-    
+    margin-right: 1vh;
 }
 .datetime{
     border-radius: .375rem;
@@ -107,7 +120,22 @@ header{
     }
     
 
-
+    @media(min-width:1441px)and (max-width:1507px){
+        .img{
+            height:580px;
+        }
+        
+        .form-group{
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+        #form-start{
+            justify-content: space-around;
+        }
+        
+        
+    }
     @media(min-width:1308px)and (max-width:1440px) {
         /* #passengers{
             display:block;
@@ -117,17 +145,38 @@ header{
             width: 10vw;
          }
          
-        /* .img{
-            height:620px;
-        } */
+        .img{
+            height:580px;
+            width: 740px;
+        }
         .big-container{
             margin-left: -11vh;
         }
     }
-    @media(max-width:1307px){
+    @media (min-width:991px) and (max-width:1307px){
         .img {
-        height:540px;
+        height:610px;
         width:700px;
+    }
+    /* .image {
+        float: left;
+        padding-left:0;
+        margin-left: 3vh;
+        margin-right: -2vh;
+    } */
+    .whole-container{
+        margin-right: 7vh;
+    }
+    .form-group{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    #form-start{
+        justify-content: space-around;
+    }
+    .form-control{
+        width: 100%;
     }
     }
 
@@ -142,16 +191,152 @@ header{
             top: 31%;
             left:23%;
         }
+        .img{
+            height: 610px;
+        }
+        .image {
+            float: left;
+            padding-left:0;
+            margin-left: 3vh;
+            margin-right: -2vh;
+        }
+        .whole-container{
+            margin-right: 7vh;
+        }
+        .big-container{
+            margin-bottom: 5vh;
+        }
     }
-    @media(min-width:768px)and (max-width:879px){
-        .center{
-            position: absolute;
-            display: grid;
+    @media(min-width:768px)and (max-width:880px){
+        .form-group{
             justify-content: center;
             text-align: center;
-            font-size: 40px;
-            font-weight: 200;
-            top: 31%;
-            left:27%;
+            width: 100%;
         }
+        #form-start{
+            justify-content: space-around;
+        }
+        .form-control{
+            width: 100%;
+        }
+        .img{
+            height: 610px;
+        }
+        .image {
+            float: left;
+            padding-left:0;
+            margin-left: 3vh;
+            margin-right: -2vh;
+        }
+        .whole-container{
+            margin-right: 7vh;
+        }
+        .big-container{
+            margin-bottom: 5vh;
+        }
+        .center{
+            top: 200px;
+            
+        }
+    }
+    @media(min-width:727px)and (max-width:768px){
+        .form-group{
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+        #form-start{
+            justify-content: space-around;
+        }
+        .form-control{
+            width: 100%;
+        }
+        .img{
+            height: 610px;
+        }
+        .image {
+            float: left;
+            padding-left:0;
+            margin-left: 3vh;
+            margin-right: -2vh;
+        }
+        .whole-container{
+            margin-right: 7vh;
+        }
+        .big-container{
+            margin-bottom: 5vh;
+        }
+        .center{
+            top: 200px;
+        }
+    }
+    @media (min-width:576px) and (max-width:727px){
+        .form-group{
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+        #form-start{
+            justify-content: space-around;
+        }
+        .form-control{
+            width: 100%;
+        }
+        .pass{
+            width: 100%;
+        }
+        .img{
+            height: 600px;
+        }
+        .image {
+            float: left;
+            padding-left:0;
+            margin-left: 3vh;
+            margin-right: -2vh;
+        }
+        .whole-container{
+            margin-right: 7vh;
+        }
+        .center{
+            top: 200px;
+            left:150px;
+        }
+    }
+    
+    @media (max-width:576px){
+        .image{
+            display: none;
+        }
+        .whole-container{
+            justify-self: center;
+            background-color: #ffffff;
+            
+            height: 610px;
+            width: 100%;
+            
+            border-radius: 1rem;
+            
+            box-shadow: 4px 3px  rgb(176, 177, 179);
+            margin-right: 5vh;
+            margin-top: 5vh;
+        }
+        .form-grp{
+            justify-content: center;
+            text-align: center;
+        }
+        .pass{
+            width: 100%;
+        }
+        .form-group{
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+        #form-start{
+            justify-content: space-around;
+        }
+        .form-control{
+            width: 100%;
+        }
+        
     }
