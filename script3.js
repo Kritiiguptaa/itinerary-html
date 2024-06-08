@@ -1,4 +1,4 @@
-var Delhi =  ['delhi', 'NewDelhi']
+var Delhi =  ['NewDelhi']
 var Maharashtra =  ['Nashik', 'Pune', 'Ratnagiri', 'Shirdi', 'Lonavala', 'Mumbai', 'Kolhapur', 'Nagpur', 'Aurangabad', 'Alibaug','Satara', 'Matheran', 'Tarkarli', 'Ajanta']
 var Karnataka =  ['Bandipur', 'Gokarna', 'Coorg', 'Hampi', 'Bangalore', 'Chikmagalur', 'Shivamogga', 'Halebidu', 'Badami', 'Bijapur', 'Mysore', 'Murudeshwar', 'Mangalore', 'Bengaluru']
 var Telangana =  ['Hyderabad']
