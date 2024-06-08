@@ -1,6 +1,4 @@
-var delhi= ['India Gate', 'Humayuns Tomb','Akshardham Temple','Waste to Wonder Park','Jantar Mantar','Chandni Chowk','Lotus Temple']
-      // "Red Fort","Agrasen ki Baoli","Sunder Nursery","Garden of Five Senses","Lodhi Garden","National Gallery of Modern Art",
-      // "National Zoological Park","Qutub Minar","National Science Centre"]
+
       
       var Mumbai= ["Marine Drive","Gateway of India","Chhatrapati Shivaji Maharaj Vastu Sangrahalaya","Sanjay Gandhi National Park",
           "Siddhivinayak Temple","Mahalaxmi Temple","Haji Ali Dargah","Chowpatty Beach","Essel World","Elephanta Caves"]
@@ -221,7 +219,9 @@ var delhi= ['India Gate', 'Humayuns Tomb','Akshardham Temple','Waste to Wonder P
       var BodhGaya =  ['Mahabodhi Temple']
       var Patna =  ['Sanjay Gandhi Biological Park', 'Takhat Shri Harimandir Ji Patna Sahib', 'Budhha Smriti Park']
       var Gurugram =  ['Kingdom of Dreams', 'Ambience Mall', 'DLF CyberHub']
-      var NewDelhi =  ['Gurudwara Bangla Sahib', 'Jama Masjid', 'Rail Museum']
+      var NewDelhi =  ['Gurudwara Bangla Sahib', 'Jama Masjid', 'Rail Museum','India Gate', 'Humayuns Tomb','Akshardham Temple','Waste to Wonder Park','Jantar Mantar','Chandni Chowk','Lotus Temple',
+     'Red Fort','Agrasen ki Baoli','Sunder Nursery','Garden of Five Senses','Lodhi Garden','National Gallery of Modern Art',
+      'National Zoological Park','Qutub Minar','National Science Centre']
       var Kedarnath =  ['Kedarnath']
       var GreaterNoida =  ['The Grand Venice Mall', 'Buddh International Circuit']
       var Bengaluru =  ['Wonderla Amusement Park', 'Orion Mall']
@@ -233,9 +233,7 @@ var delhi= ['India Gate', 'Humayuns Tomb','Akshardham Temple','Waste to Wonder P
               var htmlStrings= "";
             
               switch (DistrictSelected) {
-                case "delhi":
-                    optionsLists = delhi;
-                    break;
+                
                 case "Mumbai":
                     optionsLists = Mumbai;
                     break;
