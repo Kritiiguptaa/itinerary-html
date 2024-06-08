@@ -1,0 +1,540 @@
+body{
+    background-image: url(caaa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    /* background-blend-mode: overlay; */
+    background-color: rgba(0,0,0,8);
+}
+.heading{
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 70px;
+  font-optical-sizing: auto;
+  
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.box{
+    height: 470px;
+    width: 600px;
+    background-color: rgb(223, 211, 197);  
+    overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap:10px;
+}
+.inner-box1,.inner-box2{
+    background-color: rgb(255, 254, 250);
+    height: 430px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    
+}
+#image{
+    position: absolute;
+    height: 220px;
+    width: 230px;    
+    top:160px;
+    left:20px;
+}
+#image1 {
+    position: absolute;
+    height: 220px;
+    width: 220px;
+    top: 10px;
+    right: 60px;
+  }
+ #image4{
+    position: absolute;
+    height: 220px;
+    width: 300px;
+    top:320px;
+    right:50px
+ } 
+ #image3{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:520px;
+    left: -18px;
+ }
+ #image2{
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    top:50px;
+    right:350px
+}
+#image5{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top:-10px;
+    left:280px;
+}
+
+@media (min-width:1169px) and (max-width:1440px){
+    .box{
+        height: 470px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    
+    
+    row-gap:10px
+    }
+    #image2{
+        position: absolute;
+        height: 90px;
+        width: 160px;
+        top:10px;
+        right:350px
+    }
+    #image3{
+        position: absolute;
+        height: 150px;
+        width: 200px;
+        top:600px;
+        left:20px
+     }
+    #image4{
+        position: absolute;
+        height: 170px;
+        width: 220px;
+        top:370px;
+        right:30px
+     }
+     #image5{
+        position: absolute;
+        height: 150px;
+        width: 200px;
+        top:-10px;
+        left:150px;
+    }
+}
+@media (min-width:1083px) and (max-width:1168px){
+    .box{
+        height: 470px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    
+    
+    row-gap:10px
+    }
+    #image{
+        position: absolute;
+        height: 180px;
+        width: 185px;    
+        top:160px;
+        left:20px;
+    }
+    #image1 {
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        top: 10px;
+        right: 60px;
+      }
+    #image2{
+        position: absolute;
+        height: 60px;
+        width: 130px;
+        top:10px;
+        right:350px
+    }
+    #image3{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:600px;
+        left:20px
+     }
+    #image4{
+        position: absolute;
+        height: 140px;
+        width: 190px;
+        top:370px;
+        right:30px
+     }
+     #image5{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:-10px;
+        left:150px;
+}
+}
+
+@media (min-width:978px) and (max-width:1083px){
+    .heading{
+        font-size: 60px;
+    }
+    .box{
+        height: 470px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    
+    
+    row-gap:10px
+    }
+    #image{
+        position: absolute;
+        height: 140px;
+        width: 145px;    
+        top:160px;
+        left:10px;
+    }
+    #image1 {
+        position: absolute;
+        height: 135px;
+        width: 160px;
+        top: 50px;
+        right: 30px;
+      }
+    #image2{
+        position: absolute;
+        height: 60px;
+        width: 130px;
+        top:10px;
+        right:350px
+    }
+    #image3{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:600px;
+        left:20px
+     }
+    #image4{
+        position: absolute;
+        height: 110px;
+        width: 160px;
+        top:370px;
+        right:20px
+     }
+     #image5{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:-10px;
+        left:150px;
+}
+}
+
+@media (min-width:768px) and (max-width:978px){
+    .heading{
+        font-size: 60px;
+    }
+    .box{
+        height: 470px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    padding: 20px;
+    
+    
+    row-gap:10px
+    }
+    #image{
+        /* display: none; */
+        position: absolute;
+        height: 140px;
+        width: 145px;    
+        top:160px;
+        left:-60px;
+    }
+    #image1 {
+        /* display: none; */
+        position: absolute;
+        height: 135px;
+        width: 160px;
+        top: 100px;
+        right: -75px;
+      }
+    #image2{
+        position: absolute;
+        height: 60px;
+        width: 130px;
+        top:20px;
+        right:30px
+    }
+    #image3{
+        
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:650px;
+        left:20px
+     }
+    #image4{
+        display: none;
+        position: absolute;
+        height: 110px;
+        width: 160px;
+        top:370px;
+        right:20px
+     }
+     #image5{
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:-10px;
+        left:50px;
+}
+}
+
+@media (min-width:540px) and (max-width:768px){
+    .heading{
+        font-size: 50px;
+    }
+    .box{
+        height: 530px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+
+    padding: 20px;
+    row-gap:10px
+    }
+    .inner-box1{
+        background-color: rgb(255, 254, 250);
+        height: 490px;
+        padding: 10px;
+        overflow-wrap: break-word;
+        
+
+    }
+    .inner-box2{
+        background-color: rgb(255, 254, 250);
+        height: 490px;
+        padding: 10px;
+        overflow-wrap: break-word;
+        
+    }
+    #image{
+        display: none;
+        position: absolute;
+        height: 180px;
+        width: 185px;    
+        top:160px;
+        left:20px;
+    }
+    #image1 {
+        display: none;
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        top: 10px;
+        right: 60px;
+      }
+    #image2{
+        
+        position: absolute;
+        height: 35px;
+        width: 100px;
+        top:50px;
+        right:30px
+    }
+    #image3{
+        /* display: none; */
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:680px;
+        left:20px
+     }
+    #image4{
+        display: none;
+        position: absolute;
+        height: 140px;
+        width: 190px;
+        top:370px;
+        right:30px
+     }
+     #image5{
+        position: absolute;
+        height: 60px;
+        width: 100px;
+        top:3px;
+        left:10px;
+}
+}
+@media (min-width:426px) and (max-width:540px){
+    .heading{
+        font-size: 40px;
+    }
+    .box{
+        height: 710px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 20px;
+    row-gap:10px
+    }
+    .inner-box1{
+        
+        background-color: rgb(255, 254, 250);
+        height: 410px;
+        padding: 10px;
+        overflow-wrap: break-word;
+        
+
+    }
+    .inner-box2{
+        background-color: rgb(255, 254, 250);
+        height: 250px;
+        padding: 10px;
+        overflow-wrap: break-word;
+        
+    }
+    #image{
+        display: none;
+        position: absolute;
+        height: 180px;
+        width: 185px;    
+        top:160px;
+        left:20px;
+    }
+    #image1 {
+        display: none;
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        top: 10px;
+        right: 60px;
+      }
+    #image2{
+        
+        position: absolute;
+        height: 35px;
+        width: 100px;
+        top:50px;
+        right:30px
+    }
+    #image3{
+        display: none;
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:600px;
+        left:20px
+     }
+    #image4{
+        display: none;
+        position: absolute;
+        height: 140px;
+        width: 190px;
+        top:370px;
+        right:30px
+     }
+     #image5{
+        position: absolute;
+        height: 60px;
+        width: 100px;
+        top:3px;
+        left:10px;
+} 
+}
+@media(max-width:426px){
+    .heading{
+        font-size: 40px;
+    }
+    .box{
+        height: 710px;
+        width: 600px;
+        background-color: rgb(223, 211, 197);  
+        overflow-wrap: break-word;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 20px;
+    row-gap:10px
+    }
+    .inner-box1{
+        
+        background-color: rgb(255, 254, 250);
+        height: 410px;
+        padding: 10px;
+        overflow-wrap: break-word;
+        
+
+    }
+    .inner-box2{
+        background-color: rgb(255, 254, 250);
+        height: 250px;
+        padding: 10px;
+        overflow-wrap: break-word;
+        
+    }
+    #image{
+        display: none;
+        position: absolute;
+        height: 180px;
+        width: 185px;    
+        top:160px;
+        left:20px;
+    }
+    #image1 {
+        display: none;
+        position: absolute;
+        height: 180px;
+        width: 180px;
+        top: 10px;
+        right: 60px;
+      }
+    #image2{
+        
+        position: absolute;
+        height: 35px;
+        width: 100px;
+        top:50px;
+        right:30px
+    }
+    #image3{
+        /* display: none; */
+        position: absolute;
+        height: 100px;
+        width: 150px;
+        top:850px;
+        left:20px
+     }
+    #image4{
+        display: none;
+        position: absolute;
+        height: 140px;
+        width: 190px;
+        top:370px;
+        right:30px
+     }
+     #image5{
+        position: absolute;
+        height: 60px;
+        width: 100px;
+        top:3px;
+        left:10px;
+} 
+}
